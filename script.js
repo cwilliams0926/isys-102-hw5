@@ -20,12 +20,13 @@ function fillInBlanks() {
     console.log("fillInBlanks end");
 }
 
-// Made name computeAge to match the 'verbNoun' naming of the other
+// Made name computeAge to match the 'verbNoun' naming scheme of the other
 // functions
 function computeAge() {
     console.log("computeAge begin");
 
-
+    const years = currentYear - birthYear;
+    alert("Your age is " + years);
 
     console.log("computeAge end")
 }
