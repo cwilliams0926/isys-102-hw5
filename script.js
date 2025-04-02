@@ -38,7 +38,9 @@ function computeAge() {
 function changeGlobals() {
     console.log("changeGlobals begin");
 
-
+    firstName = "Todd";
+    birthYear = "2000";
+    currentYear = "2030";
 
     console.log("changeGlobals end");
 }
