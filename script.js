@@ -1,7 +1,7 @@
 console.log("File begin");
 
 let firstName = "Johnny";
-let birthYear = 1995;
+let birthYear = 1987;
 let currentYear = 2025;
 
 // button to fill in blanks
