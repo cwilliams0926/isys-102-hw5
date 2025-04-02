@@ -8,6 +8,10 @@ let currentYear = 2025;
 const button1 = document.querySelector("#btn1");
 button1.addEventListener("click", fillInBlanks);
 
+// button to display the age with an alert
+const button2 = document.querySelector("#btn2");
+button2.addEventListener("click", computeAge);
+
 function fillInBlanks() {
     console.log("fillInBlanks begin");
 
