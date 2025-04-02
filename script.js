@@ -12,6 +12,10 @@ button1.addEventListener("click", fillInBlanks);
 const button2 = document.querySelector("#btn2");
 button2.addEventListener("click", computeAge);
 
+// button to change the above variables
+const button3 = document.querySelector("#btn3");
+button3.addEventListener("click", changeGlobals);
+
 function fillInBlanks() {
     console.log("fillInBlanks begin");
 
